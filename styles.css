@@ -1,0 +1,28 @@
+#table_data {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table_data td,
+#customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+#table_data tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#table_data tr:hover {
+  background-color: #ddd;
+}
+
+#table_data th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #04aa6d;
+  color: white;
+}
